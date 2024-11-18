@@ -1,0 +1,69 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(244, 250, 232);
+  height: 100vh;
+}
+
+.box {
+  background-color: rgb(232, 219, 243);
+  border: 1px black solid;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+.box h1{
+  text-align: center;
+}
+
+.form input {
+  width: 250px;
+  height: 30px;
+  text-align: center;
+  background-color: 244, 250, 232;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.form button {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  color: black;
+  background-color: rgb(244, 250, 232);
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.todo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo {
+  width: 60%;
+  height: 60px;
+  padding: 0px 10px;
+  background: white;
+  border: 1px solid black;
+  text-align: start;
+  border-radius: 10px;
+  margin: 10px 2px;
+}
+
+.todo-box button {
+  width: 20%;
+  margin: 0px 2px;
+  height: 60px;
+  background: white;
+  border: 1px solid black;
+  text-align: start;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: dashed;
+}
